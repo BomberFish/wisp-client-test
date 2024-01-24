@@ -7,7 +7,7 @@
     <script src="./polyfill.js"></script>
 
     <script>
-      let ws_url = `wss://${location.hostname}/ws/`
+      let ws_url = `wss://whisper.bomberfish-industries.workers.dev/ws/`
       let ws = new WispWebSocket(ws_url+"alicesworld.tech:80");
       ws.binaryType = "arraybuffer";
       ws.addEventListener("open", () => {
